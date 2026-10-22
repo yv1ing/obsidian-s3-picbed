@@ -1,0 +1,10 @@
+{
+  "id": "s3-picbed",
+  "name": "S3 Picbed",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.7",
+  "description": "Upload images from notes to an S3-compatible bucket.",
+  "author": "yv1ing",
+  "authorUrl": "https://github.com/yv1ing",
+  "isDesktopOnly": false
+}

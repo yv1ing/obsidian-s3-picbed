@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-s3-picbed",
+  "version": "0.1.0",
+  "description": "Upload images from notes to an S3-compatible bucket.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "picbed",
+    "s3",
+    "image-upload"
+  ],
+  "author": "yv1ing",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
+  }
+}
